@@ -19,7 +19,7 @@ pg.mixer.init()
 pg.init()
 
 # carrega trilha sonora
-pg.mixer.music.load("simpson.mp3")
+pg.mixer.music.load("NyanCat.mp3")
 pg.mixer.music.play(loops=-1)
 # carregar efeitos sonoros
 som_colisao = pg.mixer.Sound("explosao.wav")
